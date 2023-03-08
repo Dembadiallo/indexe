@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire de contact</title>
+    <meta name="viewport" content="width=device-wifth,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="Formulaire.css"/>
+</head>
+<body background="images/bg.jpeg" alt="image background" >
+    <div class="container">
+        <div class="form">
+            <div class="form-box">
+            <form method="post" action="traitement.php">
+                <h2>MAKE AN APPOINTEMENT</h2>
+                <div class="input-field">
+                    <div class="nom">
+                    <label for="prenom" ></label>
+                    <input type="text" name="nom" id="nom" placeholder="votre nom" size="20" maxlength="100">
+                    </div>
+                    
+                    <div class="adresse">
+                    <label for="text"></label>
+                    <input type="text" id="adresse" name="adresse" placeholder="@gmail.com" size="20" maxlength="100">
+                    </div><br>
+
+                    <div class="numero">
+                    <label for="post"></label>
+                    <input type="number" id="numero" name="Numero" placeholder="Numero" size="100" maxlength="25">
+                    </div>
+
+                    <div class="classe">
+                    <label for="post"></label>
+                    <input type="text" id="classe" name="classe" placeholder="choississez votre classe" size="20" maxlength="25">
+                    </div><br>
+
+                    <div class="message">
+                    <label for="message"></label>
+                    <input type="text" name="message" id="message" placeholder="Message" rows="40" size="46" maxlength="50" ><TD height="30">
+                    </div><br>
+                    <div class="button">
+                    <input type="submit" value="BOOK NOW" class="cta">
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

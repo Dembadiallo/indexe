@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/bg.jpeg");
+    background-size: cover;
+    padding:100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+form{
+    background-color: white;
+    width: 400px;
+    padding: 20px;   
+    display: auto;
+    position: center;
+}
+
+.container{
+    padding: 25px 30px;
+    border-radius: 70px;
+    margin-top: 70px;
+}
+
+.container .input-field{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.container .input-field .nom{
+    width: calc(100% / 2-20px);
+    margin-bottom: 25px;
+    
+}
+
+.container .input-field .numero{
+    width: calc(100% / 2-20px);
+    margin-bottom: 25px;
+}
+
+.container .input-field .message{
+    width: calc(100% / 2-20px);
+    display: block;
+    margin-bottom: 25px;
+    font-weight: 300;
+    
+}
+
+.container .input-field .button{
+    width: calc(100% / 2-20px);
+    margin-bottom: 25px;
+    margin-left: 40%;
+    border: 0;
+    background: transparent;
+    color:black;
+}
+
+.button:: after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    
+}
